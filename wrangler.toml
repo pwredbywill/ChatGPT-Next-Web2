@@ -7,4 +7,4 @@ cwd = "."
 upload = { format = "directory", dir = "./dist" }
 
 [pages]
-build_output_dir = ".vercel/output/static" # Ensure this matches your actual build output directory
+pages_build_output_dir = ".vercel/output/static" # Ensure this matches your actual build output directory
