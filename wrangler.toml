@@ -1,10 +1,5 @@
 name = "chatgpt-next-web2"
 compatibility_flags = ["nodejs_compat"]
 
-[build]
-command = "npx @cloudflare/next-on-pages --experimental-minify" # Adjust this to match your project's build command
-cwd = "."
-upload = { format = "directory", dir = "./dist" }
-
 [pages]
-pages_build_output_dir = ".vercel/output/static" # Ensure this matches your actual build output directory
+build_output_dir = "./.vercel/output/static" # Ensure this matches your actual build output directory
